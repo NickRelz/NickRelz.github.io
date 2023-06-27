@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warnet Pojok</title>
+</head>
+<body>
+    <style>
+        * {
+            top: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+    header {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 20px;
+    }
+
+        h2 {
+            color: rgb(255, 123, 0);
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            position: relative;
+        }
+
+        a:hover {
+            color: aqua;
+            transition: 1s;
+        }
+
+        body {
+            background-image: url("peakpx\ \(3\).jpg");
+            background-position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        form { 
+            backdrop-filter: blur(2px);
+            background-size: cover;
+            border: 1px solid #b700ff;
+            border-radius: 9px;
+            width: 35%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 20px;
+            margin-top: 60px;
+        }
+
+        input {
+            background-color: rgba(53, 53, 53, 0.479);
+            color: rgba(255, 255, 255, 0.747);
+            border-radius: 10px;
+            padding: 9px;
+            margin-bottom: 15px;
+        }
+
+        input::placeholder {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+        }
+
+        label {
+            color:rgb(255, 123, 0);
+        }
+
+        select {
+            background-color: rgba(53, 53, 53, 0.479);
+            border-color: rgba(255, 255, 255, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 70%;
+        }
+
+        select:hover {
+            background-color: rgb(20, 20, 20);
+            transition: 1s;
+            border-color: aqua;
+            color:aqua
+        }
+
+        input[type="datetime-local"] {
+            color: rgb(255, 255, 255);
+            width: 100%;
+        }
+
+        input[type="datetime-local"]:hover {
+            background-color: rgb(20, 20, 20);
+            border-color: aqua;
+            transition: 1s;
+            color: aqua;
+        }
+
+
+        input[type="text"] {
+            width: 100%;
+            border-color: rgba(240, 248, 255, 0);
+        }
+
+        input[type="text"]:hover {
+            background-color: rgb(20, 20, 20);
+            border-color: aqua;
+            transition: 1s;
+            color: aqua;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            font-weight: bold;
+            border-color: rgba(255, 255, 255, 0);
+            background-color: rgba(53, 53, 53, 0.479);
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(20, 20, 20);
+            transition: 1s;
+            color: aqua;
+            border-color: aqua;
+        }
+
+        input[type="reset"] {
+            width: 100%;
+            font-weight: bold;
+            border-color: rgba(255, 255, 255, 0);
+            background-color: rgba(53, 53, 53, 0.479);
+        }
+
+        input[type="reset"]:hover {
+            background-color: rgb(20, 20, 20);
+            transition: 1s;
+            color: aqua;
+            border-color: aqua;
+        }
+
+        footer {
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        @media screen and (max-width: 450px) {
+    body {
+      font-size: 70%;
+    }
+
+    header {
+        justify-content:space-evenly;
+        display: flex;
+    }
+
+    h2 {
+        font-size: 25px; 
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    form {
+      width: 80%;
+      margin-top: 20px;
+      padding: 20px;
+    }
+
+    input[type="text"],
+    select,
+    input[type="datetime-local"],
+    input[type="submit"],
+    input[type="reset"] {
+      width: 100%;
+    }
+  }
+
+    </style>
+    <header>
+        <h2>Welcome To Pojok Warnet</h2>
+        <nav>
+            <a href="home warnet pojok.html">HOME</a>
+            <a href="#">SETTINGS</a>
+            <a href="#">ACCOUNT</a>
+            <a href="Warnet Pojok.html">PESAN</a>
+        </nav>
+        <h2>NickRel</h2>
+    </header>
+    <form action="">
+        <h2>isi untuk pesan</h2>
+        <br>
+        <input type="text" name="text" id="text" placeholder="masukan nama" required>
+        <br>
+        <select name="meja" id="select">
+            <option value="meja"> pilih meja</option>
+            <option value="meja">meja 1</option>
+            <option value="meja">meja 2</option>
+            <option value="meja">meja 3</option>
+            <option value="meja">meja 4</option>
+            <option value="meja">meja 5</option>
+            <option value="meja">meja 6</option>
+            <option value="meja">meja 7</option>
+            <option value="meja">meja 8</option>
+            <option value="meja">meja 9</option>
+            <option value="meja">meja 11</option>
+            <option value="meja">meja 12</option>
+            <option value="meja">meja 13</option>
+            <option value="meja">meja 14</option>
+            <option value="meja">meja 15</option>
+            <option value="meja">meja 16</option>
+            <option value="meja">meja 17</option>
+            <option value="meja">meja 18</option>
+            <option value="meja">meja 19</option>
+            <option value="meja">meja 20</option>
+            <option value="meja">meja 21</option>
+            <option value="meja">meja 22</option>
+            <option value="meja">meja 23</option>
+            <option value="meja">meja 24</option>
+        </select>
+
+        <select name="sewa" id="select">
+        <option value="jam">sewa jam</option>
+        <option value="jam1">1 jam 10k</option>
+        <option value="jam2">2 jam 20k</option>
+        <option value="jam3">3 jam 30k</option>
+        <option value="jam4">4 jam 40k</option>
+        <option value="jam5">5 jam 50k</option>
+        <option value="jam6">6 jam 60k</option>
+        <option value="jam7">7 jam 70k</option>
+        <option value="jam8">8 jam 80k</option>
+        <option value="jam9">9 jam 90k</option>
+        <option value="jam10">10 jam 100k</option>
+        <option value="jam11">11 jam 110k</option>
+        <option value="jam12">12 jam 120k</option>
+        <option value="jam13">13 jam 130k</option>
+        <option value="VIP">VIP seminggu 1.4jt</option>
+        </select>
+        <input type="datetime-local" name="datetime-local" id="datetime-local">
+        <input type="submit" value="KIRIM">
+        <input type="reset" value="ULANG">
+        <footer>Terima Kasih Sudah Datang :)</footer>
+    </form>
+</body>
+</html>
